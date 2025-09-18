@@ -47,7 +47,7 @@ curl -i -X PUT http://localhost:8080/healthz
 curl -i -X GET -d '{"test":1}' http://localhost:8080/healthz -H "Content-Type: application/json"
 
 
-##Expected responses:
+# Expected responses:
 
 200 OK – Health check recorded
 
